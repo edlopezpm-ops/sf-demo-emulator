@@ -81,6 +81,11 @@ window.DEMO_CONTENT = {
     positioning:
       "I am not trying to become credible by learning a new platform. I am bringing a proven enterprise solution skill set into the Salesforce ecosystem."
   },
+  discovery: {
+    pain: "Customer lacks a unified view of service, sales, and operational signals.",
+    metric: "Reduce escalation cycle time and improve executive visibility.",
+    constraint: "Existing integrations and stakeholder alignment must be validated."
+  },
   questions: [
     "What separates a good Solution Engineer from a great one on your team?",
     "How do your strongest SEs build trust with Account Executives while still protecting feasibility?",
