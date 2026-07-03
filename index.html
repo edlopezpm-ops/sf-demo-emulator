@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ed Lopez | Salesforce SE Interview Demo</title>
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <div class="app-shell" data-theme="modern">
+      <header class="topbar">
+        <div class="brand-block">
+          <img src="assets/salesforce-reference.svg" alt="Salesforce interview reference" class="sf-mark">
+          <div>
+            <p class="eyebrow">Solution Engineering Showcase</p>
+            <h1>Customer Confidence Demo</h1>
+          </div>
+        </div>
+        <nav class="top-tabs" aria-label="Primary">
+          <button class="tab active" data-view="presentation">Presentation</button>
+          <button class="tab" data-view="resume">Resume</button>
+          <button class="tab" data-view="discovery">Discovery</button>
+          <button class="tab optional-tab" data-feature="questions" data-view="questions">Questions</button>
+        </nav>
+        <div class="profile-menu">
+          <button class="profile-trigger" id="profileTrigger" aria-haspopup="true" aria-expanded="false">
+            <img id="profileAvatar" src="assets/profile-placeholder.svg" alt="Ed Lopez profile">
+            <span>Ed Lopez</span>
+          </button>
+          <div class="menu-panel" id="profilePanel" hidden>
+            <strong id="profileName">Ed Lopez</strong>
+            <small id="profileTitle">Solution Engineer Candidate</small>
+            <p id="profileAbout"></p>
+            <button id="themeToggle">Switch to Classic</button>
+            <button class="ghost" data-view-shortcut="resume">About / Resume</button>
+          </div>
+        </div>
+      </header>
+
+      <main class="workspace">
+        <aside class="utility-rail">
+          <button title="Home" class="rail-icon active">⌂</button>
+          <button title="Contacts" class="rail-icon">◎</button>
+          <button title="Opportunities" class="rail-icon">▣</button>
+          <button title="Reports" class="rail-icon">▥</button>
+        </aside>
+
+        <section class="main-stage">
+          <div class="record-header">
+            <div>
+              <p class="eyebrow">Opportunity</p>
+              <h2>Salesforce SE Interview | Puja Naik</h2>
+            </div>
+            <div class="stage-actions">
+              <button class="action-btn optional-action" data-feature="quickDemo">Quick Demo</button>
+              <button class="action-btn">New Note</button>
+              <button class="action-btn primary">Mark Stage Complete</button>
+            </div>
+          </div>
+
+          <section class="view active" id="presentationView">
+            <div class="slide-card">
+              <div class="slide-copy">
+                <p class="eyebrow" id="slideKicker"></p>
+                <h3 id="slideTitle"></h3>
+                <p class="slide-subtitle" id="slideSubtitle"></p>
+                <ul id="slideBullets"></ul>
+                <div class="proof-pill" id="slideProof"></div>
+              </div>
+              <div class="slide-side">
+                <img src="assets/codex-mascot.png" alt="Original Codex mascot" class="mascot">
+                <div class="signal-panel">
+                  <span>Discovery</span>
+                  <strong>Before</strong>
+                  <span>Solutioning</span>
+                </div>
+              </div>
+            </div>
+            <div class="slide-controls">
+              <button id="prevSlide">Previous</button>
+              <div id="slideDots" class="slide-dots" aria-label="Slide navigation"></div>
+              <button id="nextSlide">Next</button>
+            </div>
+            <details class="speaker-notes">
+              <summary>Speaker notes</summary>
+              <p id="speakerNotes"></p>
+            </details>
+          </section>
+
+          <section class="view" id="resumeView">
+            <div class="content-panel">
+              <p class="eyebrow">Candidate Snapshot</p>
+              <h3 id="resumeHeadline"></h3>
+              <p id="resumeBody"></p>
+              <div id="strengthGrid" class="strength-grid"></div>
+              <blockquote id="resumePositioning"></blockquote>
+            </div>
+          </section>
+
+          <section class="view" id="discoveryView">
+            <div class="discovery-board">
+              <article>
+                <p class="eyebrow">Requirements Gathering</p>
+                <h3>Customer discovery canvas</h3>
+                <label>Business pain <input value="Customer lacks a unified view of service, sales, and operational signals."></label>
+                <label>Success metric <input value="Reduce escalation cycle time and improve executive visibility."></label>
+                <label>Constraint <input value="Existing integrations and stakeholder alignment must be validated."></label>
+              </article>
+              <article>
+                <p class="eyebrow">Live Demo Controls</p>
+                <h3>Configure the interface in real time</h3>
+                <label><input type="checkbox" data-toggle-feature="quickDemo" checked> Show Quick Demo button</label>
+                <label><input type="checkbox" data-toggle-feature="questions" checked> Show Questions tab</label>
+                <label><input type="checkbox" data-toggle-density> Compact page density</label>
+                <select id="stageSelect">
+                  <option>Needs Analysis</option>
+                  <option>Solution Hypothesis</option>
+                  <option>Technical Validation</option>
+                  <option>Executive Story</option>
+                </select>
+                <div class="stage-meter"><span id="stageMeter"></span></div>
+              </article>
+            </div>
+          </section>
+
+          <section class="view" id="questionsView">
+            <div class="content-panel">
+              <p class="eyebrow">Questions for Puja</p>
+              <h3>Signal curiosity, judgment, and team fit.</h3>
+              <ol id="questionList"></ol>
+            </div>
+          </section>
+        </section>
+
+        <aside class="insight-panel">
+          <div class="mini-card">
+            <p class="eyebrow">Customer 360 Lens</p>
+            <strong>Sales + Service + Data + AI</strong>
+            <span>A story about confidence, not a product inventory.</span>
+          </div>
+          <div class="mini-card">
+            <p class="eyebrow">Interview Signal</p>
+            <strong>Built with Codex</strong>
+            <span>Design, execution, review, validation, delivery.</span>
+          </div>
+          <div class="mini-card optional-card" data-feature="quickDemo">
+            <p class="eyebrow">Demo Hook</p>
+            <strong>Switch UI modes live</strong>
+            <span>Shows product empathy without cloning Salesforce.</span>
+          </div>
+        </aside>
+      </main>
+
+      <footer class="app-footer">
+        <span>© Ed Lopez. Local interview model prepared with Codex - OpenAI.</span>
+        <button class="footer-chip" data-chat-seed="ai">Agentic AI loop</button>
+        <button class="footer-chip" data-chat-seed="discovery">Discovery prompt</button>
+        <button class="footer-chip" data-chat-seed="feasibility">Feasibility prompt</button>
+      </footer>
+
+      <section class="chat-widget" id="chatWidget" aria-label="Demo support chat">
+        <button class="chat-launcher" id="chatLauncher">Help</button>
+        <div class="chat-panel" id="chatPanel" hidden>
+          <header>
+            <strong>Demo Assistant</strong>
+            <button id="closeChat" aria-label="Close chat">×</button>
+          </header>
+          <div class="chat-messages" id="chatMessages"></div>
+          <div class="chat-actions">
+            <button data-chat-seed="discovery">Discovery</button>
+            <button data-chat-seed="demo">Demo</button>
+            <button data-chat-seed="ai">AI Loop</button>
+          </div>
+          <form id="chatForm">
+            <input id="chatInput" placeholder="Type a short prompt..." autocomplete="off">
+            <button>Send</button>
+          </form>
+        </div>
+      </section>
+    </div>
+    <script src="data/content.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
