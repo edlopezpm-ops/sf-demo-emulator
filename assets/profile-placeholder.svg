@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Profile placeholder">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f8a9e"/>
+      <stop offset="1" stop-color="#263b5e"/>
+    </linearGradient>
+  </defs>
+  <rect width="240" height="240" rx="48" fill="url(#g)"/>
+  <circle cx="120" cy="88" r="42" fill="#f5f7fb"/>
+  <path d="M52 205c10-45 38-70 68-70s58 25 68 70" fill="#f5f7fb"/>
+  <text x="120" y="225" text-anchor="middle" font-family="Arial, sans-serif" font-size="18" fill="#d8eef4">Ed Lopez</text>
+</svg>
