@@ -1,4 +1,6 @@
-CODEX.MD
+﻿CODEX.MD
 *.log
 .DS_Store
 Thumbs.db
+
+CLAUDE.MD
