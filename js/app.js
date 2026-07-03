@@ -71,6 +71,12 @@ function renderResume() {
   document.querySelector("#strengthGrid").replaceChildren(...strengths);
 }
 
+function renderDiscovery() {
+  document.querySelector("#discoveryPain").value = content.discovery.pain;
+  document.querySelector("#discoveryMetric").value = content.discovery.metric;
+  document.querySelector("#discoveryConstraint").value = content.discovery.constraint;
+}
+
 function renderQuestions() {
   const questions = content.questions.map((question) => {
     const item = document.createElement("li");
@@ -193,6 +199,7 @@ function init() {
   renderDots();
   renderSlide();
   renderResume();
+  renderDiscovery();
   renderQuestions();
   updateStageMeter();
   wireEvents();
