@@ -57,4 +57,4 @@ The source is publicly visible, but the existing `LICENSE` reserves all rights a
 
 ## Governance
 
-Changes follow the AEKR engineering workflow: bounded scope, deterministic validation, pull-request review, and recoverable changes. Human review and merge are required.
+Changes follow the AEKR engineering workflow: bounded scope, deterministic validation, pull-request review, and recoverable changes. The PR author and reviewer are distinct technical actors under one HOC authority; the reviewer approves and merges the exact validated head. This separation is an operational control, not an independent audit.
