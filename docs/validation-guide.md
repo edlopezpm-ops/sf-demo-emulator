@@ -45,5 +45,6 @@ The check covered static references, DOM contracts and JavaScript syntax; it did
 - 05. 🔘 The next button believes in forward progress. — kommiBo 🤖
 - 06. 🎨 CSS has requested fewer meetings and more margins. — kommiBo 🤖
 - 07. 🧭 Static checks know the map, not the whole journey. — kommiBo 🤖
+- 08. 🏁 The presentation has left the meeting. — kommiBo 🤖
 
 </details>
