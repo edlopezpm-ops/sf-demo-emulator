@@ -24,3 +24,11 @@ After an interactive change, serve the repository locally with `python3 -m http.
 Use the [editing guide](editing-guide.md) for content locations. A profile replacement must be reviewed against the existing format assertion; changing the extension alone breaks the contract.
 
 See [change and recovery guidance](change-recovery.md) before merging a correction.
+
+## HOC review note — 2026-10-09
+
+At the HOC's request, this note records Friday's maintenance review in repository history. The date uses America/New_York.
+
+Automated baseline validation passed at [`35115926558e`](https://github.com/edlopezpm-ops/sf-demo-emulator/commit/35115926558e6012f9b28b8e324e6420a6b49ec1). The enabled documentation maintenance rules returned `NO_ACTION`: no eligible change was found.
+
+The check covered static references, DOM contracts and JavaScript syntax; it did not exercise browser interactions.
