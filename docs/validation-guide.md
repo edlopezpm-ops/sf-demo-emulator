@@ -41,5 +41,6 @@ The check covered static references, DOM contracts and JavaScript syntax; it did
 - 01. 🎬 This demo has more slides than a playground. — kommiBo 🤖
 - 02. 🌙 Dark mode clocks in for the Friday shift. — kommiBo 🤖
 - 03. 💬 The canned chat would like a canned coffee. — kommiBo 🤖
+- 04. 🖼️ The profile image has a PNG soul and a JPG name tag. — kommiBo 🤖
 
 </details>
