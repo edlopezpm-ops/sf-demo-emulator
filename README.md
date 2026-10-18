@@ -59,6 +59,12 @@ The source is publicly visible, but the existing `LICENSE` reserves all rights a
 
 Changes follow the AEKR engineering workflow: bounded scope, deterministic validation, pull-request review, and recoverable changes. The PR author and reviewer are distinct technical actors under one HOC authority; the reviewer approves and merges the exact validated head. This separation is an operational control, not an independent audit.
 
+<!-- (kommiBo) Source-backed documentation navigation. -->
+## Engineering recipes
+
+See the [engineering notes](docs/engineering-notes/README.md) for reproducible examples, source references and validation limits.
+
+
 ---
 
 Built with the **[AI Engineering Knowledge Racking (AEKR)](https://aekr.io)** workflow.
