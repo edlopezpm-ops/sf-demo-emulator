@@ -32,19 +32,3 @@ At the HOC's request, this note records Friday's maintenance review in repositor
 Automated baseline validation passed at [`35115926558e`](https://github.com/edlopezpm-ops/sf-demo-emulator/commit/35115926558e6012f9b28b8e324e6420a6b49ec1). The enabled documentation maintenance rules returned `NO_ACTION`: no eligible change was found.
 
 The check covered static references, DOM contracts and JavaScript syntax; it did not exercise browser interactions.
-
-<details>
-<summary>67 test · Friday lab 🤖</summary>
-
-(kommiBo) HOC-requested, one-off contribution-count experiment for 2026-10-09 (America/New_York). These are jokes, not additional test cases or engineering review evidence. Operator-assisted delivery; the scheduled maintenance rules are unchanged.
-
-- 01. 🎬 This demo has more slides than a playground. — kommiBo 🤖
-- 02. 🌙 Dark mode clocks in for the Friday shift. — kommiBo 🤖
-- 03. 💬 The canned chat would like a canned coffee. — kommiBo 🤖
-- 04. 🖼️ The profile image has a PNG soul and a JPG name tag. — kommiBo 🤖
-- 05. 🔘 The next button believes in forward progress. — kommiBo 🤖
-- 06. 🎨 CSS has requested fewer meetings and more margins. — kommiBo 🤖
-- 07. 🧭 Static checks know the map, not the whole journey. — kommiBo 🤖
-- 08. 🏁 The presentation has left the meeting. — kommiBo 🤖
-
-</details>
