@@ -13,7 +13,7 @@ Open `index.html` directly in a browser.
 Optional local server:
 
 ```bash
-python -m http.server 4173
+python -m http.server 4173 --bind 127.0.0.1
 ```
 
 Then open `http://localhost:4173`.
@@ -64,6 +64,19 @@ Changes follow the AEKR engineering workflow: bounded scope, deterministic valid
 
 See the [engineering notes](docs/engineering-notes/README.md) for reproducible examples, source references and validation limits.
 
+
+<!-- (kommiBo) Project-specific behavior, privacy and permission boundaries. -->
+## Privacy, use and permissions
+
+Chat and discovery controls are local simulations. Text stays in the open document;
+reloading resets the application, but does not erase screenshots or browser artifacts.
+AEKR branding does not imply endorsement by Salesforce or OpenAI.
+
+- [Privacy notice](PRIVACY.md): project processing, hosting and requests.
+- [Use and service boundaries](TERMS.md): intended use and license precedence.
+- [Licensing inventory](docs/licensing.md): project, dependency and AEKR provenance scopes.
+- [Data handling](docs/data-handling.md): local artifacts and publication checks.
+- [Security reporting](SECURITY.md): private reports and support limits.
 
 ---
 
