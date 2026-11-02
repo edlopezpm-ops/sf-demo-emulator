@@ -18,7 +18,17 @@ The project currently uses:
 
 `assets/profile.jpg`
 
-To replace it later, overwrite that file or update this line in `data/content.js`:
+<!-- (kommiBo) Preserve the existing image format contract and publication permissions. -->
+Despite its legacy `.jpg` filename, the committed file contains PNG bytes and the static
+contract test requires that signature. To preserve the current contract, replace it with
+an authorized PNG using the same path. Switching to actual JPEG bytes requires a separately
+reviewed contract/test change; changing the extension alone is not a conversion.
+
+Review the photo and personal content before publishing or screen sharing. The demo's
+proprietary license does not provide permission to reuse another person's image. See the
+[use boundaries](../TERMS.md) and [data-handling guide](data-handling.md).
+
+If changing an asset path as part of an authorized update, this is the reference in `data/content.js`:
 
 ```js
 avatar: "assets/profile.jpg"
@@ -38,10 +48,12 @@ Recommended interview sequence:
 
 ## Local Run
 
-Open `index.html` directly in a browser, or run a simple local server:
+<!-- (kommiBo) Keep this unauthenticated demonstration on loopback. -->
+Open `index.html` directly in a browser, or use the loopback-bound server below.
+It is not authenticated hosting; serve only a working copy cleared for demonstration:
 
 ```powershell
-python -m http.server 4173
+python -m http.server 4173 --bind 127.0.0.1
 ```
 
 Then open:
