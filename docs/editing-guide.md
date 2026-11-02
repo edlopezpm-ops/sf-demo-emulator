@@ -38,10 +38,12 @@ Recommended interview sequence:
 
 ## Local Run
 
-Open `index.html` directly in a browser, or run a simple local server:
+<!-- (kommiBo) Keep this unauthenticated demonstration on loopback. -->
+Open `index.html` directly in a browser, or use the loopback-bound server below.
+It is not authenticated hosting; serve only a working copy cleared for demonstration:
 
 ```powershell
-python -m http.server 4173
+python -m http.server 4173 --bind 127.0.0.1
 ```
 
 Then open:
