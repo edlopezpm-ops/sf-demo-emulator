@@ -10,11 +10,11 @@ Use a fresh local page unless a step explicitly preserves state. These are manua
 1. Reload the page and count buttons inside `#slideDots`.
 2. Activate the third dot, then the first dot.
 3. Inspect each button's accessible label and the `.active` class.
-4. Compare the visible title, bullets and proof with the chosen slide object.
+4. Compare the visible title, bullets and proof with the selected slide object.
 
 ## Expected from source
 
-`renderDots()` creates one `type="button"` per slide, labeled `Go to slide 1` through `Go to slide 4`. Clicking a dot sets the exact index and renders the slide. `renderSlide()` gives only the matching dot the `active` class.
+`renderDots()` creates one `type="button"` per slide, labeled `Go to slide 1` through `Go to slide 4`. Clicking a dot sets the exact index and renders the slide. `renderSlide()` assigns only the matching dot the `active` class.
 
 ## Evidence boundary
 

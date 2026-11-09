@@ -8,7 +8,7 @@ Source: [`js/app.js`](https://github.com/edlopezpm-ops/sf-demo-emulator/blob/2dd
 Use a fresh local page unless a step explicitly preserves state. These are manual instructions; their presence does not mean the browser procedure has been executed.
 
 1. In Discovery, clear Show Quick Demo button.
-2. At desktop width, inspect both the Quick Demo action and Demo Hook insight card.
+2. At desktop width, examine both the Quick Demo action and Demo Hook insight card.
 3. Clear Show Questions tab, then re-enable both checkboxes.
 4. Inspect `[data-feature="quickDemo"]` and `[data-feature="questions"]` in the DOM.
 
@@ -18,4 +18,4 @@ Use a fresh local page unless a step explicitly preserves state. These are manua
 
 ## Evidence boundary
 
-Hiding a navigation button does not delete its view or clear state. The controls are visibility switches, not authorization or feature-entitlement checks. Quick Demo itself has no action handler in the baseline.
+Hiding a navigation button does not remove its view or clear state. The controls are visibility switches, not authorization or feature-entitlement checks. Quick Demo itself has no action handler in the baseline.
