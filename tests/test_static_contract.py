@@ -41,15 +41,22 @@ class StaticContractTests(unittest.TestCase):
         cls.parser.feed(cls.index_text)
 
     def test_local_references_exist(self) -> None:
-        css_text = (ROOT / "css/styles.css").read_text(encoding="utf-8")
-        references = self.parser.references + re.findall(r"url\(['\"]?([^)'\"]+)", css_text)
+        css_path = ROOT / "css/styles.css"
+        css_text = css_path.read_text(encoding="utf-8")
+        # (kommiBo) Keep each URL's source directory for relative asset resolution.
+        references = [(INDEX.parent, reference) for reference in self.parser.references]
+        references.extend(
+            (css_path.parent, reference)
+            for reference in re.findall(r"url\(['\"]?([^)'\"]+)", css_text)
+        )
 
         missing: list[str] = []
-        for reference in references:
+        for source_directory, reference in references:
             parsed = urlsplit(reference)
             if parsed.scheme or parsed.netloc or not parsed.path:
                 continue
-            if not (ROOT / parsed.path.lstrip("/")).is_file():
+            base = ROOT if parsed.path.startswith("/") else source_directory
+            if not (base / parsed.path.lstrip("/")).is_file():
                 missing.append(reference)
 
         self.assertEqual([], missing)
