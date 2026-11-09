@@ -9,12 +9,12 @@ Use a fresh local page unless a step explicitly preserves state. These are manua
 
 1. Reload and inspect `#profilePanel.hidden` and `#profileTrigger[aria-expanded]`.
 2. Open the profile menu and activate About / Resume.
-3. Verify that Resume is active and the profile panel closes.
+3. Confirm that Resume is active and the profile panel closes.
 4. Reopen the panel, then click the profile trigger again.
 
 ## Expected from source
 
-`toggleProfileMenu()` flips the `hidden` property and synchronizes `aria-expanded`. The shortcut calls `showView("resume")` followed by the same toggle, so a normally opened panel closes after navigation.
+`toggleProfileMenu()` toggles the `hidden` property and synchronizes `aria-expanded`. The shortcut calls `showView("resume")` followed by the same toggle, so a normally opened panel closes after navigation.
 
 ## Evidence boundary
 

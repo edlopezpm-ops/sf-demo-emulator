@@ -14,7 +14,7 @@ Use a fresh local page unless a step explicitly preserves state. These are manua
 
 ## Expected from source
 
-The Previous handler uses `(currentSlide - 1 + length) % length`; Next uses `(currentSlide + 1) % length`. With four slides, Previous from 1 reaches 4 and Next from 4 reaches 1. A complete four-step cycle returns to the same slide.
+The Previous handler uses `(currentSlide - 1 + length) % length`; Next uses `(currentSlide + 1) % length`. With four slides, Previous from 1 reaches 4 and Next from 4 reaches 1. A full four-step cycle returns to the starting slide.
 
 ## Evidence boundary
 

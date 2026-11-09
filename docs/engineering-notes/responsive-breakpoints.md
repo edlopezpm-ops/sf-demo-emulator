@@ -7,7 +7,7 @@ Source: [`css/styles.css`](https://github.com/edlopezpm-ops/sf-demo-emulator/blo
 
 Use a fresh local page unless a step explicitly preserves state. These are manual instructions; their presence does not mean the browser procedure has been executed.
 
-1. Inspect the page at 1200, 1080, 800 and 640 CSS-pixel viewport widths.
+1. Examine the page at 1200, 1080, 800 and 640 CSS-pixel viewport widths.
 2. At 1080 and below, check the utility rail, insight panel, slide and discovery columns.
 3. At 640 and below, inspect strength-card columns, record-header stacking and chat-panel width.
 4. Repeat with the chat open and a long synthetic prompt to inspect overflow.
@@ -18,4 +18,4 @@ The max-width 1080px rules hide the rail and insights and collapse workspace, sl
 
 ## Evidence boundary
 
-These are CSS expectations, not physical-device or screenshot evidence. Browser zoom, scrollbars, long content and font metrics can change the observed result. Record viewport, browser and actual defects during manual review.
+These are CSS expectations, not physical-device or screenshot evidence. Browser zoom, scrollbars, long content and font metrics can alter the observed result. Record viewport, browser and actual defects during manual review.

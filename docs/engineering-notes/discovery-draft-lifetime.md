@@ -8,13 +8,13 @@ Source: [`js/app.js`](https://github.com/edlopezpm-ops/sf-demo-emulator/blob/2dd
 Use a fresh local page unless a step explicitly preserves state. These are manual instructions; their presence does not mean the browser procedure has been executed.
 
 1. Open Discovery and replace Business pain with the synthetic value `Sandbox handoff needs a clearer owner`.
-2. Visit Resume, return to Discovery, and inspect the field.
+2. Navigate to Resume, return to Discovery, and inspect the field.
 3. Reload the page and compare the value with `content.discovery.pain`.
 4. Check the other two input IDs against `renderDiscovery()`.
 
 ## Expected from source
 
-Initialization assigns `pain`, `metric` and `constraint` to their inputs. View changes only toggle classes, so a typed value remains in that live DOM. Reload reruns initialization from `data/content.js`.
+Initialization assigns `pain`, `metric` and `constraint` to their inputs. View changes only toggle classes, so an entered value remains in that live DOM. Reload reruns initialization from `data/content.js`.
 
 ## Evidence boundary
 

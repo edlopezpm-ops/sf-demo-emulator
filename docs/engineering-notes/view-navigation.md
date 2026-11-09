@@ -9,7 +9,7 @@ Use a fresh local page unless a step explicitly preserves state. These are manua
 
 1. Activate Resume, Discovery, Questions and Presentation in that order.
 2. Inspect `.view.active` and `.tab.active` after each click.
-3. Navigate to slide 3, visit Resume, then return to Presentation.
+3. Navigate to slide 3, open Resume, then return to Presentation.
 4. Check the URL during these transitions.
 
 ## Expected from source
@@ -18,4 +18,4 @@ Use a fresh local page unless a step explicitly preserves state. These are manua
 
 ## Evidence boundary
 
-Native browser Back does not represent these view transitions. The buttons use ordinary button semantics, not a complete ARIA tab pattern; arrow-key tab behavior is not implemented.
+Native browser Back does not represent these view transitions. The buttons use standard button semantics, not a complete ARIA tab pattern; arrow-key tab behavior is not implemented.
