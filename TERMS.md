@@ -74,7 +74,7 @@ do not change the existing project's permissions or copyright ownership.
 
 ## License and ownership take precedence
 
-The root LICENSE reserves all rights and requires prior written permission from Ed Lopez. AEKR is the project contact and workflow label; this notice does not transfer ownership or change that permission requirement.
+The [root LICENSE](LICENSE) reserves rights in Ed Lopez-owned material except where a separate license or permission applies. The AEKR provenance notice, third-party rights, previously granted permissions and applicable mandatory/platform rights remain in force. No application-wide MIT grant is made.
 
 These notes describe operating boundaries, not a click-through agreement or a new
 software license. Existing license grants and applicable rights take precedence over
