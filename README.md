@@ -53,7 +53,10 @@ The validation checks local asset references, the DOM IDs used by the JavaScript
 
 ## License
 
-The source is publicly visible, but the existing `LICENSE` reserves all rights and does not grant permission to copy, modify, distribute, publish, or reuse the project. No licensing terms were changed during professionalization.
+The [project license](LICENSE) retains proprietary treatment for Ed Lopez-owned
+material that is not separately licensed or permitted. Prior permissions, third-party
+rights and the scoped AEKR notice remain intact. This clarification does not release
+the application, personal interview content or images under MIT.
 
 ## Governance
 
