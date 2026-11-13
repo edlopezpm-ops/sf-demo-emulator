@@ -5,8 +5,9 @@
 ## Establish scope and permission
 
 This is a static interview demonstration. The [project license](LICENSE) requires Ed
-Lopez's prior written permission for copying, modification or reuse; this guide does
-not change that requirement or create a contributor agreement. Discuss a proposed
+Lopez's prior written permission for reuse of his proprietary material unless an
+existing separate license or permission applies. Third-party rights and prior grants
+are preserved; this guide creates no contributor agreement. Discuss a proposed
 change with [aekr@aekr.io](mailto:aekr@aekr.io), and submit only material you are authorized
 to provide. The [licensing inventory](docs/licensing.md) separates application, image
 and brand permissions.
